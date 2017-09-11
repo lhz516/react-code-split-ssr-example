@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Meteor Dev",
+      "cwd": "${workspaceRoot}/",
+      "runtimeExecutable": "${workspaceRoot}/.meteor/local/dev_bundle/bin/npm",
+      "restart": true,
+      "timeout": 100000,
+      "stopOnEntry":false,
+      "runtimeArgs": [
+        "run",
+        "start"
+      ],
+      "sourceMaps": true,
+      "port": 3000
+    }
+  ]
+}
